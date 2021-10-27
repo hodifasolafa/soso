@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+<body> 
+      <style>   body{background-color: cadetblue;}  </style>
+<form> 
+<input type="text" placeholder="ادخل اسمك"  name="name" >    
+ <br>
+<select  name="name">  
+    <option value="">  اختر الجنس </option>   <!-- لايتم الارسال الى السيرفرvalueاذا ماكتبنا ال -->
+
+   <option value=" ذكر "> ذكر </option>  
+    <option value="  انثى ">  انثى </option>
+</select> <br>
+<input type="data" placeholder="ادخل تاريخ ميلادك"name="" /> <br>  <!--اذا ماكتبنا الاسم نلاحظ في الاعلى انه لم يرسل-->
+  <input type="email" placeholder="اكتب الايميل" name="">  <span style="background-color: yellow;"> * </span>  <br>   <!--وضع النجمة تعني ان المعلومة مهمة-->
+<button type="submit">اضغط ع الزر للتسجيل في الموقع </button>  <br>    
+<p> قم بتحديد جنسك </p>
+<label>ذكر </label>
+<input type="radio"   name="gender" value="ذكرر"  > <br>
+<label> انثى </label>
+<input type="radio" name="gender" value="انثى" autofocus > <br>
+
+</form>
+<form>
+
+
+<input style="display :none;"  type="file" accpet="image " name="صور" required >   
+  <button type="submit">  رفع الملف </button> <br>
+</form>
+  <br>
+  <form>
+    <input type="color" name="لون"/>
+    <button type ="submit">   ارسال  </button>
+
+
+
+
+  </form>
+</body>
+</html>
